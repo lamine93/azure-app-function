@@ -1,0 +1,17 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "event",
+      "direction": "in"
+    },
+    {
+      "type": "queue",
+      "name": "out_msg",
+      "queueName": "%QUEUE_NAME%",
+      "connection": "DATA_STORAGE",
+      "direction": "out"
+    }
+  ]
+}
