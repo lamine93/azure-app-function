@@ -1,9 +1,0 @@
-{
-  "IsEncrypted": false,
-  "Values": {
-    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-    "FUNCTIONS_WORKER_RUNTIME": "python",
-    "DATA_STORAGE": "<connection string SA data>",
-    "QUEUE_NAME": "notifications"
-  }
-}
