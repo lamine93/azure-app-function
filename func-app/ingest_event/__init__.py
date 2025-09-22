@@ -2,7 +2,6 @@ import json
 import datetime
 import azure.functions as func
 
-
 def main(event: func.EventGridEvent, out_msg: func.Out[str]) -> None:
     # Event Grid "Storage Blob Created" schema
     data = event.get_json()
